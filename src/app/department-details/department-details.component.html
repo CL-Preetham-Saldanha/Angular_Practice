@@ -1,0 +1,5 @@
+<div style="position:relative;background-color: rgb(118, 243, 243); width: 50%;border-radius: 20px;margin-left: 50%; left: -25%;" >
+    <ul *ngFor="let department of departments"  class="department_list">
+        <li (click)="onSelect(department)" [class.selected] ="isSelected(department)"><span class="department_badge">{{department.id}}</span>{{department.name}}</li>
+    </ul>
+</div>

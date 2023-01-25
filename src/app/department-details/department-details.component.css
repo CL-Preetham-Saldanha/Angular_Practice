@@ -1,0 +1,47 @@
+.department_list{
+    display: flex;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding: 5px;
+    
+    width: 100%;
+   justify-content: center;
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+
+    }
+    
+    .department_list > li{
+    
+    width: 145px;
+    height: 50px;
+    display: flex;
+    /* padding: 10px; */
+    
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    }
+    
+    .department_badge{
+        box-sizing: border-box;
+        display:inline-block;
+        text-align: center;
+        width: 25px;
+        color: white;
+        background-color: rgb(54, 52, 52);
+        margin-right: 10px ;
+        margin-left: 10px;
+        height: 100%;
+      padding-top: 7px;
+    
+       
+        /* border-radius: 10px; */
+    }
+
+    
+.selected{
+  background-color: grey !important;
+  color: rgb(118, 243, 243);
+}

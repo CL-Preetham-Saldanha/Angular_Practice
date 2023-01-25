@@ -1,0 +1,10 @@
+<div style="width:50%; margin: auto;  text-align: center;">
+    <ul style="list-style: none;" *ngFor="let employee of employee_array_edited">
+        <li class="employee_detail" >{{employee.id}}.{{employee.name}}-{{employee.age}}</li>
+    </ul>
+
+    <ul>
+        <single-employee-component></single-employee-component>
+    </ul>
+    <button class="employee_button" (click)="toggleEmployee()">Odd/Even</button>
+</div>
